@@ -2,6 +2,6 @@ package gomodtest
 
 import "fmt"
 
-func Hi(name string, lang string) string {
-	return fmt.Sprintf("Hi, %s![v2 version lang:%s]", name, lang)
+func Hi(name string, lang string, time string) string {
+	return fmt.Sprintf("Hi, %s![v2 version lang:%s time]", name, lang, time)
 }
